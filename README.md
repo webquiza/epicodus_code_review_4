@@ -31,17 +31,17 @@ _Web application that allows a user to choose one or more individual pizza toppi
 
 ## Specifications
 
-**Describe: ;**
+**Describe: Pizza( );**
 
 ```
-Test: 
-Code: 
-Expected Output: 
+Test: If user doesn't select any topppings and clicks on button
+Code: Pizza( );
+Expected Output: Your total is $0
 ```
 ```
-Test: 
-Code: 
-Expected Output: 
+Test: If user selects three toppings and clicks on button
+Code:  Pizza(3);
+Expected Output: Your total is $3
 ```
 
 ## Known Bugs
