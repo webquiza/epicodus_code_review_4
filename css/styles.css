@@ -1,3 +1,25 @@
 #answer {
   display: none;
 }
+
+body {
+  background-color: #da5552;
+}
+
+.center {
+  text-align: center;
+  color: #e7d7c1;
+}
+
+img {
+  border-radius: 25px;
+  border: solid #e7d7c1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+h3, .button {
+  padding: 20px;
+}
