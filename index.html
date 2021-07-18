@@ -10,9 +10,13 @@
 <body>
   <div class="container">
 
-    <div>
+    <img src="img/pizza_sign.jpg" alt="Pizza Sign">
+    
+    <div class="center">
 
       <form id="pizza_order">
+
+        <h3>Choose any topping for a <strong>$1 each</strong></h3>
 
         <div class="checkboxes">
           <input type="checkbox" name="toppings" value="cheese"> Cheese
@@ -27,8 +31,9 @@
           <input type="checkbox" name="toppings" value="sun_dried_tomatos"> Sun Dried Tomatoes
         </div>
 
-        <div>
+        <h3>Choose a size</h3>
 
+        <div>
           <label>
             <input type="radio" name="size" value="small"> Small <strong>$10</strong>
           </label>
@@ -42,8 +47,8 @@
           </label>
         </div>
           
-        <div>
-          <button type="submit">View price</button>
+        <div class="button">
+          <button type="submit" class="btn btn-light btn-lg">View price</button>
         </div>
       
       </form>
@@ -53,7 +58,7 @@
       </div>
 
     </div>
-    
+
   </div>
 </body>
 </html>
