@@ -43,6 +43,16 @@ Test: If user selects three toppings and clicks on button
 Code:  Pizza(3);
 Expected Output: Your total is $3
 ```
+```
+Test: If user selects a small pizza with no toppings and clicks on button
+Code:  Pizza(10);
+Expected Output: Your total is $10
+```
+```
+Test: If user selects a medium pizza with three toppings and clicks on button
+Code:  Pizza(18);
+Expected Output: Your total is $18
+```
 
 ## Known Bugs
 
